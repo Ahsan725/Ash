@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { db } from '../firebase'; // Adjust the path as needed
+import { db } from '../firebaseconfig'; // Adjust the path as needed
 import { doc, onSnapshot, collection, query } from 'firebase/firestore';
 
 function VisitorCount() {

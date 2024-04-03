@@ -3,21 +3,21 @@ import React from 'react'
 function Header() {
   return (
       <html data-theme="dark">
-          <div className="navbar bg-indigo-800">
+          <div className="navbar bg-primary">
   <div className="flex-1">
-    <a className="btn btn-ghost text-xl">Ahsan Baseer</a>
+    <a className="btn btn-ghost text-xl text-slate-800">Ahsan Baseer</a>
   </div>
   <div className="flex-none">
-    <ul className="menu menu-horizontal px-1 text-mytheme-neutral">
+    <ul className="menu menu-horizontal px-1 text-slate-800">
       <li><a>Projects</a></li>
       <li>
         <details>
           <summary>
-            Services
+            My Works
           </summary>
-          <ul className="p-2 bg-base-100 rounded-t-none bg-mytheme-accent">
-            <li><a>Link 1</a></li>
-            <li><a>Link 2</a></li>
+          <ul className="p-2 bg-base-100 rounded-t-none bg-slate-800">
+            <li className='text-primary'><a>Posts</a></li>
+            <li className='text-primary'><a>Articles</a></li>
           </ul>
         </details>
       </li>

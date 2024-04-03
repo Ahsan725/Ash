@@ -4,9 +4,12 @@ module.exports = {
   theme: {
     extend: {
       daisyui: {
-        themes: ["cupcake", "dark", "cmyk"],
+        // themes: ["cupcake", "dark", "cmyk"],
       },
       colors: {
+        ash: {
+          primary: '#FFFF00'
+        },
       },
     },
   },

@@ -5,7 +5,7 @@ function Header() {
       <html data-theme="dark">
           <div className="navbar bg-primary">
   <div className="flex-1">
-    <a className="btn btn-ghost text-xl text-slate-800">Ahsan Baseer</a>
+    <a className="btn btn-ghost text-3xl font-bold text-slate-800" href='www.google.com'>Ahsan</a>
   </div>
   <div className="flex-none">
     <ul className="menu menu-horizontal px-1 text-slate-800">
